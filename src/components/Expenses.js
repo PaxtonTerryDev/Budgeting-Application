@@ -1,0 +1,12 @@
+import React, { Component } from 'react'
+import Title from './Title'
+
+export default class Expenses extends Component {
+  render() {
+    return (
+      <>
+      <Title name='Expenses'/>
+      </>
+    )
+  }
+}
